@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "telemetry": "next telemetry disable"
+    "telemetry": "next telemetry disable",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.2",
