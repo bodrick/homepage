@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "telemetry": "next telemetry disable"
+    "telemetry": "next telemetry disable",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.2",
@@ -21,7 +22,7 @@
     "json-rpc-2.0": "^1.4.1",
     "memory-cache": "^0.2.0",
     "minecraft-ping-js": "^1.0.2",
-    "next": "^14.2.32",
+    "next": "^12.3.1",
     "next-i18next": "^12.0.1",
     "pretty-bytes": "^6.0.0",
     "raw-body": "^2.5.1",
