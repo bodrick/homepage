@@ -7,14 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "telemetry": "next telemetry disable"
+    "telemetry": "next telemetry disable",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.2",
     "@kubernetes/client-node": "^0.17.1",
     "classnames": "^2.3.2",
     "compare-versions": "^5.0.1",
-    "dockerode": "^4.0.5",
+    "dockerode": "^3.3.4",
     "follow-redirects": "^1.15.2",
     "i18next": "^21.9.2",
     "js-yaml": "^4.1.0",
