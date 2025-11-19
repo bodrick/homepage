@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "telemetry": "next telemetry disable"
+    "telemetry": "next telemetry disable",
+    "test": "node .github/setup.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.2",
@@ -17,7 +18,7 @@
     "dockerode": "^3.3.4",
     "follow-redirects": "^1.15.2",
     "i18next": "^21.9.2",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^4.1.0",
     "json-rpc-2.0": "^1.4.1",
     "memory-cache": "^0.2.0",
     "minecraft-ping-js": "^1.0.2",
