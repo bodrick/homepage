@@ -15,7 +15,7 @@
     "@kubernetes/client-node": "^0.17.1",
     "classnames": "^2.3.2",
     "compare-versions": "^5.0.1",
-    "dockerode": "^3.3.4",
+    "dockerode": "^4.0.5",
     "follow-redirects": "^1.15.2",
     "i18next": "^21.9.2",
     "js-yaml": "^4.1.0",
